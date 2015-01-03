@@ -23,7 +23,7 @@ That's it! With this, you can start your own projects. Just make sure you know h
 
 ## Brief Notes
 
-* For some reason, it wouldn't stop including the Jade folder into _site when Jekyll finishes compiling. If you can fix this, feel free to get in touch and I'll give credit down here.
+* <del>For some reason, it wouldn't stop including the Jade folder into _site when Jekyll finishes compiling. If you can fix this, feel free to get in touch and I'll give credit down here.</del> Big shoutout to [Gdidy50](https://github.com/gdidy50) for fixing this! 
 * If you use Codekit, you won't have to set anything up. 
 * You don't have to use Codekit, it just so happens that I use it over Prepros or manual terminal for everything except Jekyll (since it doesn't support Jekyll yet.) Just make sure you have whatever program you use for compiling export the .jade files as .html into the _includes folder. That's all you need to do. 
 * Another shoutout to [Devtips](https://www.youtube.com/user/DevTipsForDesigners). 
