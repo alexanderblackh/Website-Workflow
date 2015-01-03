@@ -13,10 +13,10 @@ In order to get this super fantastic workflow follow this simple step:
 * Make sure you have Codekit installed. It can be found [here](https://incident57.com/codekit/).
 * Move/`cd` to a folder, always in your terminal, in which you want to insert the *Website-Workflow*
 * Run `git clone https://github.com/alexanderhblack/Website-Workflow.git`
-* Then `cd Artists-Theme`
+* Then `cd Website-Workflow`
 * `jekyll serve --watch`
 * Open Codekit and set the project to this directory
-* Make sure the files within Jade are exporting into the _includes folder.
+* Make sure the files within the Jade folder are exporting into the _includes folder.
 * **DONE**
 
 That's it! With this, you can start your own projects. Just make sure you know how to use [Jade](http://jade-lang.com), [SASS](http://sass-lang.com), [Jekyll](http://jekyllrb.com), and [Bourbon](http://bourbon.io).
