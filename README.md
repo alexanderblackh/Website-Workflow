@@ -1,72 +1,28 @@
-# Artists Theme
+# Website Workflow
 
-This site is being built on YouTube, one week at a time. See all the videos up to date here: [How to build a professional website from start to finish](https://www.youtube.com/playlist?list=PLqGj3iMvMa4KQZUkRjfwMmTq_f1fbxerI)
+This is the basis of my workflow. I use Jade for quick HTML writing, SASS in .sass for quick css, Bourbon, Neat, and Bitters for styling and structure, and Jekyll for modularization. This includes a .codekit so you don't have to set custom settings. If your workflow is similar, feel free to use.
 
-Subscribe to [the channel](https://www.youtube.com/user/DevTipsForDesigners) to follow along as we develop this project step by step from the beginning.
+This project is based and inspired by Devtips. [the channel](https://www.youtube.com/user/DevTipsForDesigners) was a crucial part to becoming self-taught and is a great source of information for beginners and experienced users. I still used some of his information in the documentation here. 
 
 ## How to install/use
 
-In order to get this super fantastic [Jekyll](http://jekyllrb.com) powered template for Artists follow this simple step: 
+In order to get this super fantastic workflow follow this simple step: 
 
-* If you haven't ruby on your computer, install it. 
+* If you haven't installed ruby on your computer, install it. 
 * Then run in your terminal `$ gem install jekyll`
-* Move/`cd` to a folder, always in your terminal, in which you want to insert the *Artists-Theme*
-* Run `git clone https://github.com/DevTips/Artists-Theme.git`
+* Make sure you have Codekit installed. It can be found [here](https://incident57.com/codekit/).
+* Move/`cd` to a folder, always in your terminal, in which you want to insert the *Website-Workflow*
+* Run `git clone https://github.com/alexanderhblack/Website-Workflow.git`
 * Then `cd Artists-Theme`
 * `jekyll serve --watch`
+* Open Codekit and set the project to this directory
+* Make sure the files within Jade are exporting into the _includes folder.
 * **DONE**
 
-Isn't it fantastic?
+That's it! With this, you can start your own projects. Just make sure you know how to use [Jade](http://jade-lang.com), [SASS](http://sass-lang.com), [Jekyll](http://jekyllrb.com), and [Bourbon](http://bourbon.io).
 
-Learn how to [use Jekyll on windows](http://jekyll-windows.juthilo.com/) (if that's your thing :)
+## Brief Notes
 
-
-
-## Credits
-
-_Code contributions via pull request:_
-- [Riccardo Pasianotto](http://rkpasia.github.io)
-- [cust0dian](https://github.com/cust0dian)
-- [Dylan Spicker](https://github.com/ZDesign)
-- [arielsafari](https://github.com/arielsafari)
-- [bzerangue](https://github.com/bzerangue)
-- [Brian Guerrero](https://github.com/brian-guerrero)
-- [Vipul Bansal](https://github.com/vipsyvipul)
-- [iiSa3](https://github.com/iiSa3)
-- [Killua13](https://github.com/Killua13)
-- [iMoritz](https://github.com/iMoritz)
-- [jgrimshaw](https://github.com/jgrimshaw)
-- [boodaah](https://github.com/boodaah)
-- [Vadzim](https://github.com/meecrobe)
-- [Eric Ellenbrook](https://github.com/ellenbrook)
-- [rodrigofuentes](https://github.com/rodrigofuentes)
-- [Jonathan](https://github.com/foohyfooh)
-- [George](https://github.com/g3org3)
-- [Anders Thuesen](https://github.com/ande765a)
-- [beRoberto](https://github.com/beRoberto)
-- [Sven Kube](https://github.com/SvenKube)
-
-_A big thank you to these creators for contributing sample projects for the "work" section:_
-- [Micael Butial](https://www.behance.net/gallery/14751131/-TYPO-International-Design-Talks)
-- [Petras Nargėla](https://www.behance.net/gallery/16750837/Free-80-Crispy-Icons-in-PSD-AI-SVG-Webfont)
-- [Sergey Valiukh](https://www.behance.net/gallery/13745729/Timeline-Page)
-- [Ayoub Elred](https://www.behance.net/gallery/15812143/Flat-Mobile-UIUX-Concept-download)
-- [Anton Skvortsov](https://www.behance.net/gallery/16483395/City-IN-website-concept)
-- [Nick Zoutendijk](https://www.behance.net/gallery/13870569/Stripes-Co-Free-icon-Set)
-- [Jonathan Quintin](https://www.behance.net/gallery/12748107/Weather-Dashboard-Global-Outlook-UIUX)
-- [Jieyu Xiong](https://www.behance.net/gallery/15063575/Fresh-It-Up-App-Design)
-
-
-![The Design](/assets/img/the_design.jpg)
-
-
-_Artist Themes in the wild:_
-- [limestudios](http://limestudios.net/)
-
-
----
-
-
-This is a free Jekyll Theme that is currently being developed in weekly episodes on the [DevTips YouTube channel](http://youtube.com/devtipsfordesigners). 
-
-
+* For some reason, it wouldn't stop including the Jade folder into _site when Jekyll finishes compiling. If you can fix this, feel free to get in touch and I'll give credit down here.
+* If you use Codekit, you won't have to set anything up. 
+* You don't have to use Codekit, it just so happens that I use it over Prepros or manual terminal for everything except Jekyll (since it doesn't support Jekyll yet.) Just make sure you have whatever program you use for compiling export the .jade files as .html into the _includes folder. That's all you need to do. 
