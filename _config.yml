@@ -8,3 +8,8 @@ port: 3000
 sass:
   sass_dir: assets/css
   style: :nested
+
+# Excludes Jade folder from being built into the _site folder
+# This is just an array; therefore, if you have other folders/files you don't
+# want compiled into the _site folder, simply add it and separate them with a comma
+exclude: [Jade]
