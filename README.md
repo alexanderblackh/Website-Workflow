@@ -1,3 +1,5 @@
+#My old workflow, before I discovered React and Webpack. 
+
 # Website Workflow
 
 This is the basis of my workflow. I use Jade for quick HTML writing, SASS in .sass for quick css, Bourbon, Neat, and Bitters for styling and structure, and Jekyll for modularization. This includes a .codekit so you don't have to set custom settings. If your workflow is similar, feel free to use.
